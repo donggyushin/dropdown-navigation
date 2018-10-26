@@ -1,0 +1,22 @@
+{
+  "name": "dropdown-navigation",
+  "version": "1.0.0",
+  "description": "Making dropdown style navigation var with only html & css",
+  "main": "src/index.htm",
+  "repository": "https://github.com/donggyushin/dropdown-navigation.git",
+  "author": "rontend",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.htm"
+  },
+  "dependencies": {
+    "postcss-preset-env": "^6.2.0"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      }
+    }
+  }
+}
